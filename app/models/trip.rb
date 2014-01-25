@@ -5,6 +5,8 @@ class Trip
   has_many :restaurants
   field :name, type: String
   field :city, type: String
+  field :latitude, type: Float
+  field :longitute, type: Float
   field :active, type: Boolean, default: true
   field :seo, type: String
   field :description, type: String

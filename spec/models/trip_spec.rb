@@ -2,6 +2,8 @@ require 'spec_helper'
 describe Trip do
   it { should have_field(:name).of_type(String) }
   it { should have_field(:city).of_type(String) }
+  it { should have_field(:latitude).of_type(Float) }
+  it { should have_field(:longitute).of_type(Float) }
   it { should have_field(:active).of_type(Boolean).with_default_value_of(true) }
   it { should have_field(:seo).of_type(String) }
   it { should have_field(:description).of_type(String) }
