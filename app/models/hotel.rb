@@ -13,3 +13,8 @@ class Hotel
   validates :city, presence: true
   validates :name, uniqueness: true
 end
+
+class Comment
+  include Mongoid::Document
+  field :name, type: String
+end
