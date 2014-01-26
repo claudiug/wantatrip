@@ -38,7 +38,9 @@ group :development, :test do
   gem "better_errors"
   gem "binding_of_caller"
   gem 'rspec-rails'
+  gem 'faker'
   gem 'mongoid-rspec'
+  gem 'factory_girl_rails'
 end
 
 # Use ActiveModel has_secure_password
