@@ -41,6 +41,7 @@ group :development, :test do
   gem 'faker'
   gem 'mongoid-rspec'
   gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 # Use ActiveModel has_secure_password

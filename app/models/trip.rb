@@ -1,8 +1,5 @@
 class Trip
   include Mongoid::Document
-  embeds_many :comments
-  has_many :hotels
-  has_many :restaurants
   field :name, type: String
   field :city, type: String
   field :latitude, type: Float

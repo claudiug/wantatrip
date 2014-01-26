@@ -15,7 +15,4 @@ describe Trip do
   it { should validate_presence_of(:seo) }
   it { should validate_presence_of(:description) }
   it { should validate_uniqueness_of(:name) }
-  it { should embed_many(:comments) }
-  it { should have_many(:hotels) }
-  it { should have_many(:restaurants) }
 end
